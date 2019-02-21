@@ -37,11 +37,13 @@ CONFIG += c++11
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    krbtoolbar/krbtoolbar.cpp
+    shell/krbtoolbar/krbtoolbar.cpp \
+    shell/kcommand.cpp
 
 HEADERS += \
         mainwindow.h \
-    krbtoolbar/krbtoolbar.h
+    shell/krbtoolbar/krbtoolbar.h \
+    shell/kcommand.h
 
 FORMS += \
         mainwindow.ui
